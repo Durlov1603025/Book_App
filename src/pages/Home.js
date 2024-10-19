@@ -28,6 +28,8 @@ const Home = ({ books, addToWishlist, wishlist, booksPerPage }) => {
           />
         ))}
       </div>
+
+      {/* Pagination Component */}
       <Pagination 
         currentPage={currentPage} 
         totalPages={totalPages} 

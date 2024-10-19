@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import '../styles/BookDetails.css';  // Import CSS file
+import '../styles/BookDetails.css';  
 
 const BookDetails = ({ books }) => {
   const { bookId } = useParams();
@@ -11,9 +11,9 @@ const BookDetails = ({ books }) => {
   }
 
   return (
-    <div className="book-details">  {/* Apply class from CSS */}
-      <h2 className="book-title">{book.title}</h2>  {/* Apply class from CSS */}
-      <img className="book-image" src={book.formats['image/jpeg'].thumbnail} alt={book.title} />  {/* Apply class */}
+    <div className="book-details">  
+      <h2 className="book-title">{book.title}</h2>  
+      <img className="book-image" src={book.formats['image/jpeg'].thumbnail} alt={book.title} /> 
       <p className="book-authors">by {book.authors.map((author) => author.name).join(', ')}</p>
       <p className="book-genres">{book.genres.join(', ')}</p>
     </div>
