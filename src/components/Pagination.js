@@ -3,7 +3,7 @@ import '../styles/Pagination.css';
 const Pagination = ({ currentPage, totalPages, handlePageChange }) => {
   const pages = [];
 
-  // Create an array of page numbers based on totalPages
+  // An array of page numbers based on totalPages
   for (let i = 1; i <= totalPages; i++) {
     pages.push(i);
   }

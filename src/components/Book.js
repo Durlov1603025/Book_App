@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/BookDetails.css';  // Book-specific CSS if necessary
+import '../styles/BookDetails.css'; 
 
 const Book = ({ book, addToWishlist, wishlist }) => {
   const isInWishlist = wishlist.includes(book.id);

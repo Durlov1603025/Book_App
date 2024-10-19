@@ -27,35 +27,3 @@ const Navbar = ({ handleSearchChange, handleFilterChange }) => {
 };
 
 export default Navbar;
-
-
-
-// const Navbar = ({ handleSearchChange, handleFilterChange }) => { // Ensure handleFilterChange is destructured
-//   return (
-//     <nav className="navbar">
-//       <SearchBar handleSearchChange={handleSearchChange} />
-//       <FilterDropdown handleFilterChange={handleFilterChange} /> {/* Pass it here */}
-//     </nav>
-//   );
-// };
-
-
-// export default Navbar;
-
-
-// import React from 'react';
-// import '../styles/Navbar.css';
-// import FilterDropdown from './FilterDropdown'; // Import the FilterDropdown
-
-// const Navbar = ({ handleSearchChange, handleFilterChange }) => {
-//   return (
-//     <nav className="navbar">
-//       <div className="search-bar">
-//         <input type="text" placeholder="Search for books" onChange={handleSearchChange} />
-//       </div>
-//       <FilterDropdown handleFilterChange={handleFilterChange} /> {/* Pass the prop here */}
-//     </nav>
-//   );
-// };
-
-// export default Navbar;

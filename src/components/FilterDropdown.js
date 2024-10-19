@@ -7,7 +7,7 @@ const FilterDropdown = ({ handleFilterChange }) => {
   return (
     <div className="filter-dropdown">
       <select 
-        className="filter-select"  // Applying the filter-select class here
+        className="filter-select"  
         onChange={(event) => handleFilterChange(event.target.value)}
       >
         <option value="">All Genres</option>
