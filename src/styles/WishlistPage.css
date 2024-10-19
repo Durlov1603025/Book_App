@@ -1,0 +1,26 @@
+.wishlist-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .wishlist-empty {
+    color: #888;
+    font-size: 18px;
+  }
+  
+  .wishlist-books {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .wishlist-books li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .remove-button {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer;
+  }
+  

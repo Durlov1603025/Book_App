@@ -1,0 +1,13 @@
+.filter-dropdown {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .filter-select {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  

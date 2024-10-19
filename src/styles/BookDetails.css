@@ -1,0 +1,25 @@
+.book-details {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .book-image {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .book-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .book-authors {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .book-genres {
+    font-size: 16px;
+    color: #888;
+  }
+  

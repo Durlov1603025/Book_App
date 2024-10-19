@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
+
+.search-bar input {
+  padding: 5px;
+  font-size: 14px;
+  width: 200px;
+}
+
+.filter-dropdown {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.filter-select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+

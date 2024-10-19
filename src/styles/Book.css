@@ -1,0 +1,42 @@
+.book {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book img {
+    max-width: 100px;
+    border-radius: 5px;
+  }
+  
+  .book-info {
+    margin-left: 15px;
+  }
+  
+  .book-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .book-info p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .book-info button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .book-info button:hover {
+    background-color: #0056b3;
+  }
+  
